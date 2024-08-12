@@ -1,75 +1,17 @@
-# Nuxt 3 Minimal Starter
+# Project Management Tool
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A project management tool built with Nuxt 3, Vue 3, PrimeFlex, and Firebase. This tool allows users to manage projects, track tasks, visualize timelines with Gantt charts, and collaborate with team members in real time.
 
-## Setup
+## Features
 
-Make sure to install the dependencies:
+- **User Authentication**: Secure login and registration using Firebase Authentication.
+- **Task Management**: Create, update, and delete tasks with real-time updates.
+- **Project Timeline**: Visualize project timelines using Gantt charts.
+- **Real-time Collaboration**: Real-time updates and notifications using Firebase Firestore.
+- **Responsive Design**: Utilizes PrimeFlex for a responsive and user-friendly interface.
 
-```bash
-# npm
-npm install
+## Technologies Used
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- **Frontend**: Nuxt 3, Vue 3, PrimeVue, PrimeFlex
+- **Backend**: Firebase Firestore for data storage and Firebase Authentication for user management
+- **Deployment**: Vercel, Netlify, or Firebase Hosting
